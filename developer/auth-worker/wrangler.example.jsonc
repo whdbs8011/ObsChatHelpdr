@@ -1,0 +1,10 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "stream-dock-auth",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-10-06",
+  "workers_dev": true,
+  "vars": { "MAX_SESSIONS": "10" },
+  "observability": { "enabled": false },
+  "d1_databases": [{ "binding": "DB", "database_name": "stream-dock-auth", "database_id": "REPLACE_WITH_YOUR_D1_DATABASE_ID" }]
+}

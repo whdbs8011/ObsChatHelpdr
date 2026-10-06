@@ -1,0 +1,25 @@
+# Personal login and secrets
+.local/
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+auth-server.json
+wrangler.jsonc
+
+# Generated packages, backups, dependencies and caches
+*.zip
+node_modules/
+.wrangler/
+.npm-cache/
+__pycache__/
+*.pyc
+*.log
+*.dat
+**/runtime/node.exe
+
+# Screenshots can contain chat/account information
+outputs/*preview*.png
+outputs/*preview*.jpg
+

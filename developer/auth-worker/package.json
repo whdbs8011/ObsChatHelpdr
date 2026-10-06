@@ -1,0 +1,7 @@
+{
+  "name": "stream-dock-auth",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node --test --test-isolation=none test.mjs", "deploy": "wrangler deploy" },
+  "devDependencies": { "wrangler": "^4.0.0" }
+}
